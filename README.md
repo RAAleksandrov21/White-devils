@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "images/logo-team.png" alt = "logo-team" width="550px">
+  <img src = "logo-team.png" alt = "logo-team" width="550px">
 </p>
 
 <hr>
