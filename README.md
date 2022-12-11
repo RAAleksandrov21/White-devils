@@ -16,7 +16,7 @@
 
 ## 💻 Description <a name="description"></a>
 
-
+The task was to make a game for all ages that would appeal to people. The game had to be word games or math games. We tried to do that. In the game you have to guess the word by saying letters. Each unknown letter results in a mistake, cutting off one of the character's limbs.
 
 ## ⚒️ Built Using <a name="built_using"></a>
 
@@ -39,5 +39,5 @@
 - <a href = "https://github.com/RAAleksandrov21"> Radomir Aleksandrov </a> (Scrum Trainer)
 - <a href = "https://github.com/SSPopov21"> Stanimir Popov </a> (QA Engineer)
 - <a href = "https://github.com/EEMustafa21"> Enis Mustafa </a> (Back-end Developer)
-- <a href = "https://github.com/SZGeorgiev21">  </a> (Front-end Developer)
+- <a href = "https://github.com/SZGeorgiev21"> Stilian Georgiev </a> (Front-end Developer)
 
