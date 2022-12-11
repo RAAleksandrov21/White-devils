@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "images/logo-team.png" alt = "logo" width="50px">
+  <img src = "images/logo-team.png" alt = "logo" width="550px">
 </p>
 
 <hr>
@@ -16,7 +16,6 @@
 
 ## 💻 Description <a name="description"></a>
 
-The task was to create an adventure game. We did that. The game has multiple enemies which you can attack and fight your way through and advance further. As you move through the game, you obtain more powerful weapons to help defeat stronger oppontents
 
 
 ## ⚒️ Built Using <a name="built_using"></a>
