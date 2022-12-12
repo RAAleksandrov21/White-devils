@@ -1,3 +1,4 @@
+<title>White devils</title>
 <p align = "center">
   <img src = "logo-team.png" alt = "logo-team" width="550px">
 </p>
