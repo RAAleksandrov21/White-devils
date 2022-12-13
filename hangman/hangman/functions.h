@@ -5,6 +5,6 @@ using namespace std;
 
 void welcome();
 string FindAnswer(int len);
-void DrawHangman(int misses);
+void DrawHangman(int wrong);
 void Status(vector<char> incorrect, string answer);
-void End(string answer, string codeword);
+void End(string answer, string word);
