@@ -3,7 +3,6 @@
 #include "functions.h"
 using namespace std;
 
-
 void welcome()
 {
     cout << "$$\\   $$\\                                                                 " << endl;
@@ -19,7 +18,6 @@ void welcome()
     cout << "                               \\______/                                   " << endl;
     cout << "How to play: Save the man from being hanged by guessing the letters in the word.\n";
 }
-
 
 string FindAnswer(int len)
 {
@@ -146,4 +144,49 @@ void DrawHangman(int wrong)
         cout << " ========= \n";
     }
 
+}
+
+
+void Status(vector<char> incorrect, string answer)
+{
+    cout << "Incorrect Guesses: \n";
+
+    for (int i = 0; i < incorrect.size(); i++)
+    {
+        cout << incorrect[i] << " ";
+    }
+
+    cout << "\nYour word:\n";
+
+    for (int i = 0; i < answer.length(); i++)
+    {
+        cout << answer[i] << " ";
+    }
+}
+
+
+void End(string answer, string word)
+{
+    if (answer == word)
+    {
+        cout << "$$\\     $$\\                                       $$\\           " << endl;
+        cout << "\\$$\\   $$  |                                      \\__|          " << endl;
+        cout << " \\$$\\ $$  /$$$$$$\\  $$\\   $$\\       $$\\  $$\\  $$\\ $$\\ $$$$$$$\\  " << endl;
+        cout << "  \\$$$$  /$$  __$$\\ $$ |  $$ |      $$ | $$ | $$ |$$ |$$  __$$\\ " << endl;
+        cout << "   \\$$  / $$ /  $$ |$$ |  $$ |      $$ | $$ | $$ |$$ |$$ |  $$ |" << endl;
+        cout << "    $$ |  $$ |  $$ |$$ |  $$ |      $$ | $$ | $$ |$$ |$$ |  $$ |" << endl;
+        cout << "    $$ |  \\$$$$$$  |\\$$$$$$  |      \\$$$$$\\$$$$  |$$ |$$ |  $$ |" << endl;
+        cout << "    \\__|   \\______/  \\______/        \\_____\\____/ \\__|\\__|  \\__|" << endl;
+    }
+    else
+    {
+        cout << " $$$$$$\\                                           $$$$$$\\                                 " << endl;
+        cout << "$$  __$$\\                                         $$  __$$\\                                " << endl;
+        cout << "$$ /  \\__| $$$$$$\\  $$$$$$\\$$$$\\   $$$$$$\\        $$ /  $$ |$$\\    $$\\  $$$$$$\\   $$$$$$\\  " << endl;
+        cout << "$$ |$$$$\\  \\____$$\\ $$  _$$  _$$\\ $$  __$$\\       $$ |  $$ |\\$$\\  $$  |$$  __$$\\ $$  __$$\\ " << endl;
+        cout << "$$ |\\_$$ | $$$$$$$ |$$ / $$ / $$ |$$$$$$$$ |      $$ |  $$ | \\$$\\$$  / $$$$$$$$ |$$ |  \\__|" << endl;
+        cout << "$$ |  $$ |$$  __$$ |$$ | $$ | $$ |$$   ____|      $$ |  $$ |  \\$$$  /  $$   ____|$$ |      " << endl;
+        cout << "\\$$$$$$  |\\$$$$$$$ |$$ | $$ | $$ |\\$$$$$$$\\        $$$$$$  |   \\$  /   \\$$$$$$$\\ $$ |      " << endl;
+        cout << " \\______/  \\_______|\\__| \\__| \\__| \\_______|       \\______/     \\_/     \\_______|\\__|      " << endl;
+    }
 }
