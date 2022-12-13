@@ -72,3 +72,78 @@ string FindAnswer(int len)
         break;
     }
 }
+
+void DrawHangman(int wrong)
+{
+    if (wrong == 0)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+    else if (wrong == 1)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "  O   | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+    else if (wrong == 2)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "  O   | \n";
+        cout << "  |   | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+    else if (wrong == 3)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "  O   | \n";
+        cout << " /|   | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+    else if (wrong == 4)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "  O   | \n";
+        cout << " /|\\  | \n";
+        cout << "      | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+    else if (wrong == 5)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "  O   | \n";
+        cout << " /|\\  | \n";
+        cout << " /    | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+    else if (wrong == 6)
+    {
+        cout << "  +---+ \n";
+        cout << "  |   | \n";
+        cout << "  O   | \n";
+        cout << " /|\\  | \n";
+        cout << " / \\  | \n";
+        cout << "      | \n";
+        cout << " ========= \n";
+    }
+
+}
