@@ -1,4 +1,4 @@
-<h1>White devils</h1>
+<h1>Team White devils</h1>
 <p align = "center">
   <img src = "Logo/logo-team.png" alt = "logo-team" width="550px">
 </p>
