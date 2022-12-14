@@ -3,7 +3,7 @@
 #include "functions.h"
 using namespace std;
 
-void welcome()
+void welcome() //the function displays a big "Hangman" heading
 {
     cout << "$$\\   $$\\                                                                 " << endl;
     cout << "$$ |  $$ |                                                                " << endl;
@@ -71,7 +71,7 @@ string FindAnswer(int len)
     }
 }
 
-void DrawHangman(int wrong)
+void DrawHangman(int wrong) //the function draws the man being hanged
 {
     if (wrong == 0)
     {
@@ -165,7 +165,7 @@ void Status(vector<char> incorrect, string answer)
 }
 
 
-void End(string answer, string word)
+void End(string answer, string word) // the function displays a big "You Win" or "Game Over" text
 {
     if (answer == word)
     {
