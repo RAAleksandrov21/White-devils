@@ -3,7 +3,9 @@
 #include <vector>
 using namespace std;
 
-void welcome();
+//declaring functions
+
+void welcome(); 
 string FindAnswer(int len);
 void DrawHangman(int wrong);
 void Status(vector<char> incorrect, string answer);

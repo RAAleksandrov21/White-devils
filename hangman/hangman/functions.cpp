@@ -19,7 +19,7 @@ void welcome() //the function displays a big "Hangman" heading
     cout << "How to play: Save the man from being hanged by guessing the letters in the word.\n";
 }
 
-string FindAnswer(int len)
+string FindAnswer(int len)  //the function gets the length of the word and prints underscores for the letters of the word
 {
     switch (len)
     {
@@ -147,7 +147,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
 }
 
 
-void Status(vector<char> incorrect, string answer)
+void Status(vector<char> incorrect, string answer)  //display your incorrect guesses and your word
 {
     cout << "Incorrect Guesses: \n";
 
