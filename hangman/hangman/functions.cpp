@@ -78,7 +78,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
         cout << "  +---+ \n";
         cout << "  |   | \n";
         cout << "      | \n";
-        cout << "      | \n";
+        cout << "      | \n";                       //this displays when you have no incorrect guesses
         cout << "      | \n";
         cout << "      | \n";
         cout << " ========= \n";
@@ -88,7 +88,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
         cout << "  +---+ \n";
         cout << "  |   | \n";
         cout << "  O   | \n";
-        cout << "      | \n";
+        cout << "      | \n";                       //this displays when you have 1 incorrect guess
         cout << "      | \n";
         cout << "      | \n";
         cout << " ========= \n";
