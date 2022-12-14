@@ -98,7 +98,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
         cout << "  +---+ \n";
         cout << "  |   | \n";
         cout << "  O   | \n";
-        cout << "  |   | \n";
+        cout << "  |   | \n";                       //this displays when you have 2 incorrect guesses
         cout << "      | \n";
         cout << "      | \n";
         cout << " ========= \n";
@@ -108,7 +108,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
         cout << "  +---+ \n";
         cout << "  |   | \n";
         cout << "  O   | \n";
-        cout << " /|   | \n";
+        cout << " /|   | \n";                       //this displays when you have 3 incorrect guesses
         cout << "      | \n";
         cout << "      | \n";
         cout << " ========= \n";
@@ -117,7 +117,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
     {
         cout << "  +---+ \n";
         cout << "  |   | \n";
-        cout << "  O   | \n";
+        cout << "  O   | \n";                       //this displays when you have 4 incorrect guesses
         cout << " /|\\  | \n";
         cout << "      | \n";
         cout << "      | \n";
@@ -128,7 +128,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
         cout << "  +---+ \n";
         cout << "  |   | \n";
         cout << "  O   | \n";
-        cout << " /|\\  | \n";
+        cout << " /|\\  | \n";                      //this displays when you have 5 incorrect guesses
         cout << " /    | \n";
         cout << "      | \n";
         cout << " ========= \n";
@@ -138,7 +138,7 @@ void DrawHangman(int wrong) //the function draws the man being hanged
         cout << "  +---+ \n";
         cout << "  |   | \n";
         cout << "  O   | \n";
-        cout << " /|\\  | \n";
+        cout << " /|\\  | \n";                      //this displays when you have 6 incorrect guesses
         cout << " / \\  | \n";
         cout << "      | \n";
         cout << " ========= \n";
